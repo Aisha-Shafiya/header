@@ -1,0 +1,236 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blue;
+}
+
+.container{
+    max-width:  1000px;
+  
+  margin-top: 45px;
+    margin: auto;
+     
+}
+
+nav{
+    display: flex;
+  justify-content: space-between;
+ 
+  
+}
+.navbar{
+    padding: 20px;
+   
+}
+.navbar a{
+padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    color: antiquewhite; 
+}
+
+.navbar-brand {
+   padding: 20px;
+   
+}
+
+.navbar a:hover{
+    background-color: #000;
+    color: white !important;
+}
+.active{
+    color:rgb(23, 15, 15) !important;
+}
+
+.button{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: palevioletred;
+    color: bisque;
+    border-radius: 10px;
+    border: none;
+}
+.button:hover{
+    background-color: #a99b9b;
+    color: black;
+}
+.navbar-brand a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(37, 22, 46);
+}
+ .row{
+    display: flex;
+   justify-content: space-between;
+   
+}
+
+.column1{
+   
+    width: 427px;
+    height: 496px;
+   padding: 10px;
+    margin-top: 90px;
+}
+
+.column2{
+    border-radius: 20px;
+   
+    height: 550px;
+    width: 470px;
+    background-color: white;
+    margin-top: 70px;
+}
+.column2 h1{
+    text-align: center;
+    font-size: 40px;
+}
+ form .form1{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 40px;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  .buttons button{
+    padding: 15px;
+    color: aliceblue;
+    
+  }
+.button1 {
+    width: 75%;
+    margin-top: 10px;
+   font-weight: bold;
+    border-radius: 50px;
+    border:none;
+    background-color: rgb(43, 89, 129);
+
+}
+  .buttons button{
+    margin-left: 15px;
+    font-weight: bold;
+    
+  }
+  .button2{
+    width: 75%;
+    background-color: rgb(79, 200, 224);
+    font-weight: bold;
+    border-radius: 50px;
+    border:none;
+    margin-top: 20px;
+  }
+
+ .title{
+    font-size: 55px;
+    color: white;
+    font-weight: bold;
+ } 
+
+ .text{
+    font-size: 20px;
+    color: blanchedalmond;
+ }
+
+ @media screen and (max-width: 500px) {
+    .navbar1 {
+      display: flex;
+      flex-direction: column;
+    }
+    .navbar a {
+        display: block;
+  
+    }
+    
+    .column1{
+   
+        width: 300px;
+        height: 400px;
+       
+        margin-top: 90px;
+    }
+
+    .column2{
+        border-radius: 20px;
+       
+        height: 500px;
+        width: 470px;
+        background-color: white;
+        margin-top: 70px;
+    }
+    .column2 h1{
+        text-align: center;
+        font-size: 30px;
+    }
+     form .form1{
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        margin-left: 40px;
+    }
+    
+    input[type=text] {
+        width: 80%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+    
+      .buttons button{
+        padding: 15px;
+        color: aliceblue;
+        
+      }
+    .button1 {
+        width: 75%;
+        margin-top: 10px;
+       font-weight: bold;
+        border-radius: 50px;
+        border:none;
+        background-color: rgb(43, 89, 129);
+    
+    }
+      .buttons button{
+        margin-left: 15px;
+        font-weight: bold;
+        
+      }
+      .button2{
+        width: 75%;
+        background-color: rgb(79, 200, 224);
+        font-weight: bold;
+        border-radius: 50px;
+        border:none;
+        margin-top: 20px;
+      }
+    
+     .title{
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+     } 
+    
+     .text{
+        font-size: 18px;
+        color: blanchedalmond;
+     }
+     .button{
+        margin-left: 10px;
+     }
+  }
+ 
